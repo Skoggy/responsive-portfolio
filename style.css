@@ -1,0 +1,24 @@
+*   {
+    color: #2d3436;
+}
+
+body {
+    background-color: #55efc4
+}
+
+main   {
+      width: 80%;
+      margin: 3.25rem auto 0 auto;
+      clear: both;
+      margin-right: auto;
+      background-color:#ef7155;
+      border-radius: 3px;
+}
+
+h1   {
+    border-bottom: 2px #2d3436;
+}
+
+.img-thumbnail  {
+    margin: 5px;
+}
