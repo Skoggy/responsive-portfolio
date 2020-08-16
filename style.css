@@ -3,7 +3,11 @@
 }
 
 body {
-    background-color: #55efc4
+    background-color: #EFBD7C
+}
+
+p   {
+    font-size: 1.25em
 }
 
 main   {
@@ -11,7 +15,7 @@ main   {
       margin: 3.25rem auto 0 auto;
       clear: both;
       margin-right: auto;
-      background-color:#ef7155;
+      background-color:#faebd7;
       border-radius: 3px;
 }
 
@@ -21,4 +25,27 @@ h1   {
 
 .img-thumbnail  {
     margin: 5px;
+}
+
+main a   {
+    font-size: 1.25em;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+.footer   {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d3436;
+  height: 30px;
+}
+
+@media   (max-width: 400px)  {main {
+        width: 97%;
+        margin-right: 5px;
+        margin-left: 5px;
+       
+}
 }
