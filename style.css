@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #EFBD7C
+    background-color: #EFBD7C;
+    margin-bottom: 100px;
 }
 
 p   {
@@ -19,6 +20,11 @@ p   {
     cursor: default;
 }
 
+h1   {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 h2   {
     font-size: 35px;
 }
@@ -31,9 +37,10 @@ main   {
       background-color:#faebd7;
       border-radius: 3px;
 }
-
-h1   {
-    border-bottom: 2px #2d3436;
+main a   {
+    font-size: 1.25em;
+    margin-top: 30px;
+    
 }
 
 .img-thumbnail  {
@@ -46,19 +53,17 @@ h1   {
     width: 100%;
     border-radius: 3px;
     transition-duration:0.3s;
+    margin-left: 150px
 }
 .logo:hover   {
     border-width:2px;
     border-color: yellow;
 }
 
-   
-
-main a   {
-    font-size: 1.25em;
-    margin-top: 30px;
-    
+.container  {
+    margin-bottom: 20px;
 }
+
 
 .footer   {
     position: fixed;
@@ -70,9 +75,17 @@ main a   {
 }
 @media (max-width: 768px)
     {.logo  {
-        width: 75%;
+        width: 50%;
+        margin: 0px;
+        height: 100px;
     }
-    
+    h2   {
+        font-size: 1.5em;
+    }
+    .img-fluid   {
+        height: 220px;
+        width: 250px;
+    }
     }
 
 
@@ -81,5 +94,7 @@ main a   {
         margin-right: 5px;
         margin-left: 5px;
 }
-        
+        .logo   {
+            margin: 0px;
+        }   
 }
