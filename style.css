@@ -45,6 +45,8 @@ main a   {
 
 .img-thumbnail  {
     margin: 5px;
+    height: 300px;
+    width: 300px;
 }
 
 .logo   {
@@ -60,10 +62,16 @@ main a   {
     border-color: yellow;
 }
 
+.portfolio-container  {
+    align-items: center;
+}
+
 .container  {
     margin-bottom: 20px;
 }
-
+.card-title  {
+    text-align: center;
+}
 
 .footer   {
     position: fixed;
@@ -73,6 +81,28 @@ main a   {
   background-color: #2d3436;
   height: 30px;
 }
+
+.card-img-top  {
+    height: 200px;
+}
+
+.btn  {
+    padding: 10px;
+    margin: 10px;
+    width: 95px;
+    background-color: #2f2f2f;
+    color: white;
+    animation-duration: 1.5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color:  #2f2f2f;
+    border-color: #2f2f2f;
+}
+
+
+
 @media (max-width: 768px)
     {.logo  {
         width: 50%;
