@@ -1,9 +1,9 @@
 *   {
-    color: #2d3436;
+    color: black;
 }
 
 body {
-    background-color: #EFBD7C;
+    background-image: url("Assets/background.jpg");
     margin-bottom: 100px;
 }
 
@@ -34,19 +34,23 @@ main   {
       margin: 3.25rem auto 0 auto;
       clear: both;
       margin-right: auto;
-      background-color:#faebd7;
-      border-radius: 3px;
+      background-color:#E69A8DFF;
+      border-radius: 20px;
 }
 main a   {
     font-size: 1.25em;
     margin-top: 30px;
     
 }
-
+.img-fluid {
+    border-radius: 50%;
+    width: 80vw;
+}
 .img-thumbnail  {
     margin: 5px;
     height: 300px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .logo   {
