@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Noto Sans', sans-serif;
     color: #D3D3D3;
   
   }
@@ -44,6 +44,17 @@ body {
     list-style: none;
   }
 
+.card {
+  text-align: center;
+  height: 450px;
+  margin-bottom: 20px;
+}
+.resume-link  {
+  color: #D3D3D3;
+  padding: 20px;
+  
+  font-size: 30px;
+}
   .btn  {
     padding: 10px;
     margin: 10px;
@@ -116,4 +127,21 @@ body {
   .contact-list  li:nth-child(4) a:before {
     background: #F4B400
   }
+  
+.footer   {
+  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #2d3436;
+height: 30px;
+}
+
+  @media (max-width: 768px)  {
+    .card  {
+      margin: 20px;
+      text-align: center;
+    }
+  }
+  
   
